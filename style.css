@@ -39,6 +39,7 @@ h3 {
   color: hsl(0, 0%, 55%);
   margin: 20px 0 5px 0;
 }
+
 .social-links {
   display: flex;
   flex-direction: column;
@@ -47,21 +48,22 @@ h3 {
   margin-top: 20px;
 }
 
-.social-links div {
+.social-links a{
   padding: 10px;
   width: 250px;
   background-color: hsl(0, 0%, 20%);
-  border-radius: 10px;
-}
-
-.social-links :hover {
-  background-color: hsl(75, 94%, 57%);
-  border-radius: 10px;
-}
-
-div a {
+  border-radius: 5px;
   text-decoration: none;
   color: hsl(0, 0%, 100%);
   font-size: small;
   font-weight: 700;
 }
+
+a:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+}
+
+
+
+
