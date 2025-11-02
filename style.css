@@ -4,7 +4,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px 0px;
+  padding: 100px 0px;
 }
 
 .container {
@@ -69,6 +69,6 @@ a:hover {
   }
 
   .social-links a {
-    width:auto;
+    width: auto;
   }
 }
